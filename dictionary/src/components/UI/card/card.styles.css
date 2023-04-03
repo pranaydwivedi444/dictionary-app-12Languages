@@ -1,0 +1,24 @@
+.card__container {
+  background-color: rgba(77, 77, 77, 0.192);
+  padding: 1rem;
+  box-shadow: 1px 1px 1px black;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1em 0.25rem;
+  padding: 0.5em 0.25rem;
+  quotes: initial;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
